@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		<div></div>
+		<img src="img/音乐.png" alt="">
+		
+
+	<script src = 'js/jquery.min.js'></script>
+	<script>
+		//首先为鼠标移动绑定事件
+		$(document).mousemove(function(e) {
+			//设置图片的坐标
+			console.log(1);
+			$('img').css({'left':e.clientX+10,'top':e.clientY+10});
+
+		});
+	</script>
+	</body>
+</html>
